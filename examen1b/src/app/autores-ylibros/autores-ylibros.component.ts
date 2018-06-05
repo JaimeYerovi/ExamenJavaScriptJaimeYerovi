@@ -46,6 +46,7 @@ export class AutoresYLibrosComponent implements OnInit {
     this.esEcuatoriano = undefined;
   }
 
+
   crearLibro(){
 
     this.autorSeleccionado.libros.push({icbn:this.icbn,
